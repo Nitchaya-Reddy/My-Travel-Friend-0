@@ -170,7 +170,7 @@ ul.menu {
   }
 /*=============================Banner=============================*/
 .banner {
-    background-image: url("bg.jpg");
+    background-image: url("../../Home/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
