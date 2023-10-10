@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="place1-style.css">
+    <link rel="icon" href="/My Travel Friend Logo.jpg" type="image/jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <i><b><title>My Travel Friend</title></b></i>
+</head>
+<body>
+    
+<!--===========Nav Bar=================-->
+<section class="nav-bar">
+    <img src="../../My Travel Friend Logo.jpg" style="height: 1.5cm; width: 2cm;margin-left: 0.2cm; background: transparent;float: left;">
+    <div class="logo">My Travel Friend</div>
+    <ul class="menu">
+        <li><a href="../../index.html">home</a></li>
+        <div class="dropdown"><li><a href="#"><span>PLACES</span></a></li>
+            <!--<button class="dropbtn">
+                <i class="fa fa-caret-down">
+                </i>
+            </button>-->
+            <div class="dropdown-content">
+                <a href="place1-index.html">Places</a>
+                <a href="#">Places</a>
+                <a href="#">Places</a>
+                <a href="#">Places</a>
+                <a href="#">Places</a>
+            </div>
+        </div>
+        <li><a href="#">Vlogs</a></li>
+        <li><a href="#">Trip Planner</a></li>
+    </ul>
+    </div>
+
+</section>
+<!--===============Banner================-->
+<section class="banner">
+    <div class="banner-text-item">
+        
+        <div class="banner-heading">
+            <h1>Pack your bags for next tour</h1>
+        </div>
+        <form class="form">
+            <input type="text" list="mylist" placeholder="Where would you like to go?">
+            <datalist id="mylist">
+                <option>London</option>
+                <option>Canada</option>
+                <option>Monaco</option>
+                <option>France</option>
+                <option>Japan</option>
+                <option>Switzerland</option>
+                <option>Seoul</option>
+            </datalist>
+            <a href="#" class="book">Search</a>
+        </form>
+    </div>
+</section>
+
+<!--==============Places===================-->
+<section class="places">
+    <br><br>
+    <div class="places-text">
+        <h2>Favourite Places</h2>
+    </div>
+    
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" style="background-color: rgb(0, 136, 255);">
+                <div class="item active">
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293736/james-wheeler_xqmq2y.jpg">
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <h2>The Dark Forest Adventure</h2>
+                            <div class="card-box">
+                                <p class="location">&#9992; Vancouver, Canada</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        
+                <div class="item">
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293736/james-wheeler_xqmq2y.jpg">
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <h2>The Dark Forest Adventure</h2>
+                            <div class="card-box">
+                                <p class="location">&#9992; Vancouver, Canada</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293736/james-wheeler_xqmq2y.jpg">
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <h2>The Dark Forest Adventure</h2>
+                            <div class="card-box">
+                                <p class="location">&#9992; Vancouver, Canada</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293736/james-wheeler_xqmq2y.jpg">
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <h2>The Dark Forest Adventure</h2>
+                            <div class="card-box">
+                                <p class="location">&#9992; Vancouver, Canada</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+<!--===========Vlogs===============-->
+<section class="places">
+    <br><br>
+    <div class="places-text">
+        <h2>Vlogs</h2>
+    </div>
+    
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" style="background-color: rgb(0, 136, 255);">
+                <div class="item active">
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293736/james-wheeler_xqmq2y.jpg">
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <h2>The Dark Forest Adventure</h2>
+                            <div class="card-box">
+                                <p class="location">&#9992; Vancouver, Canada</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        
+                <div class="item">
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293736/james-wheeler_xqmq2y.jpg">
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <h2>The Dark Forest Adventure</h2>
+                            <div class="card-box">
+                                <p class="location">&#9992; Vancouver, Canada</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293736/james-wheeler_xqmq2y.jpg">
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <h2>The Dark Forest Adventure</h2>
+                            <div class="card-box">
+                                <p class="location">&#9992; Vancouver, Canada</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293736/james-wheeler_xqmq2y.jpg">
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <h2>The Dark Forest Adventure</h2>
+                            <div class="card-box">
+                                <p class="location">&#9992; Vancouver, Canada</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+<!--===========Footer=================-->
+<div class="footer">
+    <div class="links">
+        <h3>Quick Links</h3>
+        <ul>
+            <li>Contact Us</li>
+            <li>About</li>
+        </ul>
+    </div>
+    <div class="links">
+        <h3>Support</h3>
+        <ul>
+            <li>Frequently Asked Questions</li>
+            <li>Report a Payment Issue</li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <ul>
+        <li class="facebook"><a href="https://technologywalacontent.blogspot.com"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+        <li class="twitter"><a href="https://technologywalacontent.blogspot.com"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+        <li class="instagram"><a href="https://technologywalacontent.blogspot.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+        <li class="google"><a href="#"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+        <li class="whatsapp"><a href="https://technologywalacontent.blogspot.com"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
+</body>
+</html>
